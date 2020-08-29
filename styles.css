@@ -1,0 +1,84 @@
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display:inline;
+}
+nav a{
+  text-decoration:none;
+  padding:0.5rem;
+  line-height:2.25rem;
+  color:white;
+  display:inline;
+}
+nav a:hover{
+  color:#EEA628;
+  border-bottom:2px;
+  border-bottom-style:solid;
+  border-bottom-color:#EEA628;
+}
+#iiit img{
+  height:4rem;
+}
+header{
+  margin:1.5rem;
+  display:block;
+}
+#rdip{
+  float:right;
+}
+nav{
+  width:100%;
+  background-color:#050C5C;
+}
+td,p,input,a,legend,span{
+  font-size:1.25rem;
+}
+#photo img{
+  height:7rem;
+}
+#photo{
+  float:right;
+  margin:1rem;
+}
+main{
+  margin:1rem;
+}
+#details{
+  font-weight:bold;
+}
+#details table,#details td{
+  border-style:solid;
+  border-width:0.125rem;
+  border-collapse:collapse;
+}
+#details td{
+  padding:0.25rem;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+fieldset{
+  border-radius:0.5rem;
+}
+#form td{
+  padding:0.25rem;
+}
+.input{
+  text-align:center;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+  width:26rem;
+  line-height:2.25rem;
+}
+input[type="submit"],input[type="reset"]{
+  margin:0.5rem;
+  height:2.5rem;
+  width:8rem;
+  background-color:white;
+  border-radius:0.25rem;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+  cursor:pointer;
+}

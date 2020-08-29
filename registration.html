@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>registration</title>
+       <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+             <a href="https://www.iiit.ac.in/" id="iiit"><img src="iiit-new.png" alt="iiith" title="iiith"></a>
+             <a href="https://serc.iiit.ac.in/rdip" id="rdip"><p>RDIP</p></a>
+        </header>
+        <nav>
+             <ul>
+                 <a href="homepage.html"><li>Home</li></a>
+                 <a href="registration.html"><li>Registration Form</li></a>
+             </ul>
+        </nav>
+        <main>
+            <form action="details.html" method="get">
+               <fieldset>
+                   <legend>Details:</legend>
+                      <table id="form">
+                         <tr>
+                             <td>First Name:</td>
+                             <td class="input"><input type="text" name="first_name" required></td>
+                         </tr>
+                         <tr>
+                             <td>Email:</td>
+                             <td class="input"><input type="email" name="email" required></td>
+                         </tr>
+                         <tr>
+                             <td>Phone No:</td>
+                             <td class="input"><input type="number" name="phone" required></td>
+                         </tr>
+                         <tr>
+                             <td>Gender:</td>
+                             <td class="input">
+                                 <input type="radio" name="gender" value="male" required><span>Male</span>
+                                 <input type="radio" name="gender" value="female" required><span>Female</span>
+                                 <input type="radio" name="gender" value="other" required><span>Other</span>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>Reason for RDIP:</td>
+                             <td class="input">
+                                  <input type="checkbox" name="reason" value="html"><span>HTML</span>
+                                  <input type="checkbox" name="reason" value="css"><span>CSS</span>
+                                  <input type="checkbox" name="reason" value="js"><span>JavaScript</span>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>College:</td>
+                             <td class="input"><input type="text" name="college" required></td>
+                         </tr>
+                      </table>
+               </fieldset>
+               <fieldset>
+                   <legend>Declaration:</legend>
+                   <table>
+                       <tr>
+                           <td class="input" ><input type="checkbox" name="comfirm" value="confirm"required></td>
+                           <td class="input"><b>I declare above details given by me are true.</b></td>
+                       </tr>
+                       <tr>
+                            <td></td>
+                            <td class="input"><input type="submit" value="Submit"><input type="reset" value="Reset"></td>
+                       </tr>
+                   </table>
+               </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
